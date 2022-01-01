@@ -6,13 +6,12 @@ using UnityEngine;
 public class Dot : MonoBehaviour
 {
     [SerializeField] private DotColor _dotType = DotColor.None;
-    [SerializeField] private float _moveTime = .4f;
     public DotColor DotType => _dotType;
 
     public Vector2Int LocalCoords { get; set; } = new Vector2Int(-1, -1);
     
     //todo унаследовать Dot and Tile от одного родителя Piece = в нем поле LocalCoords.
-    public void Init(int x, int y)
+    public void Init(int x, int y, DotColor dotType)
     {
         //_dotType = type;
         LocalCoords = new Vector2Int(x, y);
@@ -20,7 +19,7 @@ public class Dot : MonoBehaviour
         
         name = ToString();
         //Debug.Log($"<color=cyan> {name} </color>");
-        var a = Vector2Int.zero;
+        _dotType = dotType;
     }
 
     public override string ToString() => _dotType + " ball " + LocalCoords;
@@ -42,6 +41,6 @@ public class Dot : MonoBehaviour
         LocalCoords = targetInLocalCoord;
         var worldCord = Global.ToWorldCoordinate(targetInLocalCoord);
         
-        GetComponent<DotMove>().Move(worldCord, _moveTime);
+        GetComponent<DotMove>().Move(worldCord);
     }
 }

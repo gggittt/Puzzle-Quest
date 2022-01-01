@@ -166,11 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _width: 8
   _height: 8
-  _dotPrefabs:
-  - {fileID: 8554698090164907540, guid: cd5a703f4cd1de442967abe9b9c8a5d1, type: 3}
-  - {fileID: 1337838301310867773, guid: 7a013e42e351b944fba622c835214832, type: 3}
-  - {fileID: 6100592500267322433, guid: 752926f4e50c3e94daad05f91a9cd0f0, type: 3}
-  - {fileID: 9032633466701477971, guid: 644c539a1ae41a74bb9420fcc5c60d2f, type: 3}
+  _dotPrefab: {fileID: 3936056993172705279, guid: e0991f41b1395284b8b15acf4184c577,
+    type: 3}
   _lastSelectedCoords: {x: -1, y: -1}
 --- !u!1 &519420028
 GameObject:

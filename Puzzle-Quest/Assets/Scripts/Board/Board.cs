@@ -1,13 +1,23 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Board : MonoBehaviour
 {
     [SerializeField] private int _width = 8;
     [SerializeField] private int _height = 8;
-    [SerializeField] private Dot[] _dotPrefabs;
+    [SerializeField] private Dot _dotPrefab;
+    //[SerializeField] private Dot[] _dotPrefabs;
+    [SerializeField] private Dictionary<DotColor, Color> _dotTypes = new Dictionary<DotColor, Color>
+    {
+        {DotColor.Blue, Color.blue},
+        {DotColor.Red, Color.red},
+        {DotColor.Green, Color.green},
+        {DotColor.Yellow, Color.yellow},
+    };
+    
     [SerializeField] private Vector2Int _lastSelectedCoords = _v2IntInvalid;
     private Dot _lastClicked;
     
@@ -23,19 +33,28 @@ public class Board : MonoBehaviour
         CreateBoard();
     }
 
-    private void PlaceDot(int x, int y, Dot dot)
+    private Dot PlaceDot(int x, int y)
     {
-        Dot newDot = Instantiate(dot, transform);
+        Dot newDot = Instantiate(_dotPrefab, transform);
         _allDots[x, y] = newDot;
 
-        newDot.Init(x, y);
-    }
+        int randomIndex = UnityEngine.Random.Range(0, _dotTypes.Count);
+        DotColor dotType = _dotTypes.ElementAt(randomIndex).Key;
+        Color color = _dotTypes[dotType];
 
-    private Dot GetRandomDot()
-    {
-        int index = UnityEngine.Random.Range(0, _dotPrefabs.Length);
-        return _dotPrefabs[index];
+        newDot.Init(x, y, dotType);
+
+        newDot.GetComponent<SpriteRenderer>().color = color;
+        
+        return newDot;
     }
+    
+
+    /*private Dot GetRandomDot()
+    {
+        //int index = UnityEngine.Random.Range(0, _dotPrefabs.Length);
+        return _dotPrefabs[index];
+    }*/
 
 
     private void FillRandomDots()
@@ -44,14 +63,14 @@ public class Board : MonoBehaviour
         for (int y = 0 ; y < _height ; y++) 
         for (int x = 0; x < _width; x++)
         {
-            Dot dot = GetRandomDot();
+            //Dot dot = GetRandomDot();
 
             //dot.OnClick += DotClickHandler;
-            PlaceDot(x, y, dot);
+            var newDot = PlaceDot(x, y);
         }
         
     }
-    
+
     public void HandleClick(Vector2Int clickedLocalCoords)
     {
         Debug.Log($"<color=cyan> board HandleClick  </color>");
