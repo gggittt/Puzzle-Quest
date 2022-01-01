@@ -171,6 +171,7 @@ MonoBehaviour:
   - {fileID: 1337838301310867773, guid: 7a013e42e351b944fba622c835214832, type: 3}
   - {fileID: 6100592500267322433, guid: 752926f4e50c3e94daad05f91a9cd0f0, type: 3}
   - {fileID: 9032633466701477971, guid: 644c539a1ae41a74bb9420fcc5c60d2f, type: 3}
+  _lastSelectedCoords: {x: -1, y: -1}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,8 +298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ae2735a4561243b828c70cc8ec1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tilePrefab: {fileID: -8814006677762520590, guid: ba53d181d8395ac4486585d4b57eeda8,
+  _tilePrefab: {fileID: -2919582447790649557, guid: ba53d181d8395ac4486585d4b57eeda8,
     type: 3}
+  _board: {fileID: 78093687}
 --- !u!4 &1289793736
 Transform:
   m_ObjectHideFlags: 0

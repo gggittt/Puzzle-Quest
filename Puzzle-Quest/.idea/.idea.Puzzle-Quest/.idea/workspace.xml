@@ -19,9 +19,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1598635-5c29-4f90-aee7-b882f4f3c591" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+    <list default="true" id="c1598635-5c29-4f90-aee7-b882f4f3c591" name="Default Changelist" comment="Board, dots">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Board/Tiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pieces/Dot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pieces/Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Puzzle-Quest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Puzzle-Quest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Puzzle-Quest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Puzzle-Quest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balls/Dot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Board.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Board.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Board/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Board.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Board/Board.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pieces/Dot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pieces/Tile.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Board/Tiles.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +56,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0847A0FA-F944-44CC-BAF1-958021B27F54/cf/ec2c3639/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0847A0FA-F944-44CC-BAF1-958021B27F54/22/2bed145c/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0847A0FA-F944-44CC-BAF1-958021B27F54/e9/52885ecf/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0847A0FA-F944-44CC-BAF1-958021B27F54/e2/19470f0d/RequireComponent.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/фыв.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TilePrefScr.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Вще.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DotColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DotGeter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DotGetter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Extension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Vector2Extension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TileColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SampleTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/SampleTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Board.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pieces/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/todo" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/todo.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pieces/DotMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/Tiles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Global.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pieces/Dot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/Board.cs" />
       </list>
     </option>
   </component>
@@ -59,16 +106,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994462" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30011073" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="RiderUnityFileTemplatesSettings" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="14212">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="14212" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -93,8 +142,17 @@
       <option name="presentableId" value="Default" />
       <updated>1640510601110</updated>
       <workItem from="1640510645000" duration="1612000" />
-      <workItem from="1640606454971" duration="14799000" />
+      <workItem from="1640606454971" duration="16181000" />
+      <workItem from="1640964731953" duration="28125000" />
     </task>
+    <task id="LOCAL-00001" summary="Board, dots">
+      <created>1640626844011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640626844011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,15 +174,114 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Board, dots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Board, dots" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="622" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641051562775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="279" key="#com.intellij.fileTypes.FileTypeChooser/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641051562775" />
+    <state width="1853" height="193" key="GridCell.Tab.0.bottom" timestamp="1641055049981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.0.bottom/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049981" />
+    <state width="1853" height="193" key="GridCell.Tab.0.center" timestamp="1641055049981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.0.center/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049981" />
+    <state width="1853" height="193" key="GridCell.Tab.0.left" timestamp="1641055049980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.0.left/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049980" />
+    <state width="1853" height="193" key="GridCell.Tab.0.right" timestamp="1641055049981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.0.right/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049981" />
+    <state width="1853" height="193" key="GridCell.Tab.1.bottom" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.1.bottom/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.1.center" timestamp="1641055049981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.1.center/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049981" />
+    <state width="1853" height="193" key="GridCell.Tab.1.left" timestamp="1641055049981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.1.left/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049981" />
+    <state width="1853" height="193" key="GridCell.Tab.1.right" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.1.right/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.2.bottom" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.2.bottom/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.2.center" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.2.center/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.2.left" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.2.left/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.2.right" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.2.right/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.3.bottom" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.3.bottom/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.3.center" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.3.center/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.3.left" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.3.left/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state width="1853" height="193" key="GridCell.Tab.3.right" timestamp="1641055049982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="193" key="GridCell.Tab.3.right/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641055049982" />
+    <state x="2533" y="51" key="RiderGenerateDialog" timestamp="1640980172978">
+      <screen x="1920" y="-77" width="1920" height="1040" />
+    </state>
+    <state x="2533" y="51" key="RiderGenerateDialog/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@1920.-77.1920.1040" timestamp="1640980172978" />
     <state x="2176" y="-77" key="SettingsEditor" timestamp="1640606686048">
       <screen x="1920" y="-77" width="1920" height="1040" />
     </state>
     <state x="2176" y="-77" key="SettingsEditor/1920.-77.1920.1040/0.0.1920.1040/-1280.-22.1280.1024@1920.-77.1920.1040" timestamp="1640606686048" />
-    <state x="2373" y="-77" width="1009" height="1470" key="search.everywhere.popup" timestamp="1640619310160">
+    <state x="2272" y="64" key="Vcs.Push.Dialog.v2" timestamp="1640626847632">
       <screen x="1920" y="-77" width="1920" height="1040" />
     </state>
+    <state x="2272" y="64" key="Vcs.Push.Dialog.v2/1920.-77.1920.1040/0.0.1920.1040/-1280.-22.1280.1024@1920.-77.1920.1040" timestamp="1640626847632" />
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1641051050298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@0.0.1920.1040" timestamp="1641051050298" />
+    <state x="2373" y="-77" width="1009" height="1470" key="search.everywhere.popup/1920.-77.1920.1040/-1280.-22.1280.1024/0.0.1920.1040@1920.-77.1920.1040" timestamp="1640986094415" />
     <state x="2373" y="-77" width="1009" height="1470" key="search.everywhere.popup/1920.-77.1920.1040/0.0.1920.1040/-1280.-22.1280.1024@1920.-77.1920.1040" timestamp="1640619310160" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Board/Board.cs</url>
+          <line>59</line>
+          <properties documentPath="D:\6 Unity proj\Unity_Genres\0 GitHub\Puzzle-Quest\Puzzle-Quest\Assets\Scripts\Board\Board.cs" initialLine="59">
+            <startOffsets>
+              <option value="1611" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1651" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
